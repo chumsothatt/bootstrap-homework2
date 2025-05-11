@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: "Poppins";
+}
+.d-flex-center-between{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-block{
+    display: block;
+}
+.bg-secondary{
+    background-color: #494243;
+}
+.text-light{
+    color: #fff;
+}
+.text-darkgreen{
+    color: #0e8f07;
+}
+.text-center{
+    text-align: center;
+}
+
+/* ---------------header */
+header{
+    padding: 2px 0px;
+    background-color: rgba(151, 148, 148, 0.17);
+    position: absolute;
+    width: 100%;
+}
+header .navbar-nav .nav-item{
+    list-style-type: none;
+    padding: 16px 24px;
+}
+header .navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+header .navbar-nav .nav-item{
+    position: relative;
+}
+header .navbar-nav .nav-item img{
+    position: absolute;
+    bottom: -4px;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+header .navbar-nav .nav-item:hover img{
+    opacity: 1;
+    bottom: 0;
+}
+/* -----------hero-banner */
+.hero-banner{
+    background: url(/asset/images/body_background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
